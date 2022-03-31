@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../methods'
 
-describe '#greet_programmer' do
+describe '#gzreet_programmer' do
 
   it 'outputs the string "Hello, programmer!"' do
     expect { greet_programmer }.to output(a_string_including("Hello, programmer!")).to_stdout
